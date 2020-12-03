@@ -1,1 +1,1 @@
-let g:highlightedyank_highlight_duration = 500
+let g:highlightedyank_highlight_duration = 300

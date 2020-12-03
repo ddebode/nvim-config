@@ -62,3 +62,18 @@ set noswapfile
 let g:auto_save = 1  "Auto-save plugin: enable AutoSave on Vim startup
 let g:auto_save_in_insert_mode = 0  "Auto-save plugin do not save while in insert mode
 set autoread
+
+" Set clipboard to system clipboard
+" On ubuntu install package vim-gtk
+let uname = system("uname -s")
+if uname == "Darwin\n"
+   set clipboard=unnamed
+else
+   set clipboard=unnamedplus
+endif
+
+" record playback (start record with qq)
+noremap Q @q
+
+" Allow backspace to delete more than what is inserted
+set backspace=indent,eol,start

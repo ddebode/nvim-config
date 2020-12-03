@@ -27,7 +27,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Easy motion for VSCode
     " Plug 'asvetliakov/vim-easymotion'
     Plug 'ChristianChiarulli/vscode-easymotion'
-    Plug 'machakann/vim-highlightedyank'
   else
 
     " Easymotion
@@ -118,6 +117,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'vim-scripts/vim-auto-save'
     " Test with maven
     Plug 'vim-test/vim-test'
+    " Highlight yank 
+    Plug 'machakann/vim-highlightedyank'
 
     " Rainbow brackets
     " Plug 'luochen1990/rainbow'

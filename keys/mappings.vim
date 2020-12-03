@@ -114,9 +114,7 @@ noremap x "_x
 
 " Custom mappings
 nnoremap <leader>r :so ~/.config/nvim/init.vim<CR> 
-map <leader>q :q<cr>
+nnoremap <leader>q :q<cr>
 nnoremap <leader>n :nohl<cr>
-nmap <leader>o o<Esc>
-nmap <leader>' vi'
-nmap <leader>; vi"
-map <leader>a <esc>ggVG<CR>
+nnoremap <leader>o o<Esc>
+nnoremap <leader>a <esc>ggVG<CR>
