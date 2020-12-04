@@ -54,6 +54,7 @@ else
   luafile $HOME/.config/nvim/lua/plug-colorizer.lua
   source $HOME/.config/nvim/plug-config/vimspector.vim
   source $HOME/.config/nvim/plug-config/highlightyank.vim
+  source $HOME/.config/nvim/plug-config/vim-test.vim
   " source $HOME/.config/nvim/plug-config/sneak.vim
   " source $HOME/.config/nvim/plug-config/rainbow.vim
   " source $HOME/.config/nvim/plug-config/illuminate.vim
