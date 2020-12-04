@@ -10,27 +10,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     " Better Comments
     Plug 'tpope/vim-commentary'
-    " Change dates fast
-    Plug 'tpope/vim-speeddating'
-    " Convert binary, hex, etc..
-    Plug 'glts/vim-radical'
     " Repeat stuff
     Plug 'tpope/vim-repeat'
     " Text Navigation
     Plug 'unblevable/quick-scope'
     " Useful for React Commenting 
-    Plug 'suy/vim-context-commentstring'
-    " highlight all matches under cursor
-    " Plug 'RRethy/vim-illuminate'
 
-  if exists('g:vscode')
-    " Easy motion for VSCode
-    " Plug 'asvetliakov/vim-easymotion'
-    Plug 'ChristianChiarulli/vscode-easymotion'
-  else
-
-    " Easymotion
-    Plug 'easymotion/vim-easymotion'
     " Surround
     Plug 'tpope/vim-surround'
     " Have the file system follow you around
@@ -60,11 +45,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'yuki-ycino/fzf-preview.vim', { 'branch': 'release', 'do': ':UpdateRemotePlugins' }
     Plug 'junegunn/fzf.vim'
     " Git
-    Plug 'airblade/vim-gitgutter'
-    Plug 'tpope/vim-fugitive'
-    Plug 'tpope/vim-rhubarb'
-    Plug 'junegunn/gv.vim'
-    Plug 'rhysd/git-messenger.vim'
+    " Plug 'airblade/vim-gitgutter'
+    " Plug 'tpope/vim-fugitive'
+    " Plug 'tpope/vim-rhubarb'
+    " Plug 'junegunn/gv.vim'
+    " Plug 'rhysd/git-messenger.vim'
     " Terminal
     Plug 'voldikss/vim-floaterm'
     " Start Screen
