@@ -95,10 +95,10 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
 " Delete to zero register
-noremap <leader>d "_d<cr>
-noremap dd "_dd
-noremap c "_c
-noremap x "_x
+nnoremap <leader>d "_d<cr>
+nnoremap dd "_dd
+nnoremap c "_c
+nnoremap x "_x
 
 " Custom mappings
 nnoremap <leader>r :so ~/.config/nvim/init.vim<CR> 
