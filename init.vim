@@ -26,7 +26,6 @@ else
 
   " Plugin Configuration
   source $HOME/.config/nvim/keys/which-key.vim
-  source $HOME/.config/nvim/plug-config/vim-commentary.vim
   source $HOME/.config/nvim/plug-config/better-whitespace.vim
   source $HOME/.config/nvim/plug-config/fzf.vim
   source $HOME/.config/nvim/plug-config/codi.vim
@@ -51,7 +50,6 @@ else
   source $HOME/.config/nvim/plug-config/vimspector.vim
   source $HOME/.config/nvim/plug-config/highlightyank.vim
   source $HOME/.config/nvim/plug-config/vim-test.vim
-  " source $HOME/.config/nvim/plug-config/sneak.vim
   " source $HOME/.config/nvim/plug-config/rainbow.vim
   " source $HOME/.config/nvim/plug-config/illuminate.vim
   " source $HOME/.config/nvim/plug-config/vista.vim

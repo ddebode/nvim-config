@@ -123,8 +123,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Debug
     " Plug 'mfussenegger/nvim-dap'
     " Plug 'nvim-dap-virtual-text'
-    " Sneak
-    " Plug 'justinmk/vim-sneak'
     " Plug 'nvim-treesitter/nvim-treesitter-refactor'
     " Plug 'nvim-treesitter/nvim-treesitter-textobjects'
     " Plug 'romgrk/nvim-treesitter-context'
