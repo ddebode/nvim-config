@@ -42,16 +42,21 @@ let g:which_key_map['.'] = [ ':e $MYVIMRC'                                     ,
 let g:which_key_map[';'] = [ ':Commands'                                       , 'commands' ]
 let g:which_key_map['='] = [ '<C-W>='                                          , 'balance windows' ]
 let g:which_key_map['e'] = [ ':CocCommand explorer --toggle --sources=file+'   , 'explorer' ]
-let g:which_key_map['h'] = [ '<C-W>s'                                          , 'split below']
 let g:which_key_map['n'] = [ ':let @/ = ""'                                    , 'no highlight' ]
 " let g:which_key_map['o'] = [ ':RnvimrToggle'                                   , 'open' ]
-let g:which_key_map['p'] = [ ':Files'                                          , 'search files' ]
 " let g:which_key_map['q'] = [ ':q<cr>'                                          , 'close window' ]
 let g:which_key_map['T'] = [ ':TSHighlightCapturesUnderCursor'                 , 'treesitter highlight' ]
 let g:which_key_map['u'] = [ ':UndotreeToggle'                                 , 'undo tree']
-let g:which_key_map['v'] = [ '<C-W>v'                                          , 'split right']
+let g:which_key_map['L'] = [ '<C-W>v'                                          , 'split right']
+let g:which_key_map['J'] = [ '<C-W>s'                                          , 'split below']
 let g:which_key_map['W'] = [ ':call WindowSwap#EasyWindowSwap()'               , 'move window' ]
 let g:which_key_map['z'] = [ 'Goyo'                                            , 'zen' ]
+
+" fzf
+let g:which_key_map['b'] = ['Buffers'                , 'fzf-buffer']
+let g:which_key_map['f'] = ['Files'                  , 'fzf-files']
+let g:which_key_map['h'] = ['History'                , 'fzf-history']
+let g:which_key_map['/'] = ['Ag'                     , 'fzf-search']
 
 " Group mappings
 
@@ -75,7 +80,7 @@ let g:which_key_map.a = {
       \ }
 
 " b is for buffer
-let g:which_key_map.b = {
+let g:which_key_map.B = {
       \ 'name' : '+buffer' ,
       \ '>' : [':BufferMoveNext'        , 'move next'],
       \ '<' : [':BufferMovePrevious'    , 'move prev'],
@@ -118,7 +123,7 @@ let g:which_key_map.d = {
       \ }
 
 " f is for find and replace
-let g:which_key_map.f = {
+let g:which_key_map.x = {
       \ 'name' : '+find & replace' ,
       \ 'f' : [':Farr --source=vimgrep'    , 'file'],
       \ 'p' : [':Farr --source=rgnvim'     , 'project'],
