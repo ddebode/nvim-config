@@ -46,7 +46,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'junegunn/fzf.vim'
     " Git
     " Plug 'airblade/vim-gitgutter'
-    " Plug 'tpope/vim-fugitive'
+    Plug 'tpope/vim-fugitive'
     " Plug 'tpope/vim-rhubarb'
     " Plug 'junegunn/gv.vim'
     " Plug 'rhysd/git-messenger.vim'
@@ -104,6 +104,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'vim-test/vim-test'
     " Highlight yank 
     Plug 'machakann/vim-highlightedyank'
+    " Nerdtree 
+    Plug 'scrooloose/nerdtree'
+
 call plug#end()
 
 " Automatically install missing plugins on startup
