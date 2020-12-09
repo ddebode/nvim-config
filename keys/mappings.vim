@@ -107,8 +107,3 @@ nnoremap <leader>n :nohl<cr>
 nnoremap <leader>o o<Esc>
 nnoremap <leader>a <esc>ggVG<CR>
 
-" Vim tree config "
-map <C-n> :NERDTreeToggle<CR>
-map <C-b> :NERDTreeFind<CR>
-let NERDTreeShowHidden=1
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif

@@ -44,6 +44,7 @@ source $HOME/.config/nvim/plug-config/vim-test.vim
 source $HOME/.config/nvim/plug-config/coc/coc-extensions.vim
 source $HOME/.config/nvim/plug-config/coc/coc.vim
 source $HOME/.config/nvim/plug-config/quickscope.vim
+source $HOME/.config/nvim/plug-config/nerdtree.vim
 
 " Add paths to node and python here
 if !empty(glob("~/.config/nvim/paths.vim"))
