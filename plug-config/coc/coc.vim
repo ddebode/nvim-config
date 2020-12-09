@@ -26,6 +26,7 @@ nmap <silent> gr <Plug>(coc-references)
 
 " Remap keys for applying codeAction to the current buffer.
 nmap <leader>cc  <Plug>(coc-codeaction)
+nmap <leader>ca  <Plug>(coc-codeaction-selected)
 " Apply AutoFix to problem on the current line.
 nmap <leader>cf  <Plug>(coc-fix-current)
 
