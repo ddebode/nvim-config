@@ -46,6 +46,9 @@ source $HOME/.config/nvim/plug-config/coc/coc.vim
 source $HOME/.config/nvim/plug-config/quickscope.vim
 source $HOME/.config/nvim/plug-config/nerdtree.vim
 
+" java-test
+source $HOME/.config/nvim/plug-config/java-test.vim
+
 " Add paths to node and python here
 if !empty(glob("~/.config/nvim/paths.vim"))
   source $HOME/.config/nvim/paths.vim
