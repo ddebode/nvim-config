@@ -9,3 +9,13 @@ function! FindJavaTestFile()
     echo "No testfile selected"
   endif
 endfunction
+
+function! FindJavaTestFileFzF()
+  let currentFileName = expand('%:t:r')
+  if !empty(currentFileName)
+    call fzf#vim#files('.', {'options':'--query test/'.currentFileName})
+  else
+    echo "No test file found"
+  endif
+  redraw!
+endfunction
