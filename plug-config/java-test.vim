@@ -1,3 +1,5 @@
+nmap <leader>ct :call FindJavaTestFileFzF()<CR>
+
 function! FindJavaTestFile()
   let dir = finddir('.settings/..', expand('%:p:h').';')
   let currentFileName = expand('%:t:r')
@@ -19,3 +21,5 @@ function! FindJavaTestFileFzF()
   endif
   redraw!
 endfunction
+
+
