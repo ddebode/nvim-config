@@ -26,7 +26,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'sheerun/vim-polyglot'
     " Treesitter
     Plug 'nvim-treesitter/nvim-treesitter'
-    Plug 'nvim-treesitter/playground'
+    " Plug 'nvim-treesitter/playground'
     " Cool Icons
     Plug 'kyazdani42/nvim-web-devicons'
     Plug 'ryanoasis/vim-devicons'
@@ -83,7 +83,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Swap windows
     Plug 'wesQ3/vim-windowswap'
     " Markdown Preview
-    Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & npm install'  }
+    Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install'  }
     " Easily Create Gists
     Plug 'mattn/vim-gist'
     Plug 'mattn/webapi-vim'
@@ -107,6 +107,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Nerdtree 
     Plug 'scrooloose/nerdtree'
 
+
+    " See registers when pressing " or @
+    Plug 'junegunn/vim-peekaboo'
 call plug#end()
 
 " Automatically install missing plugins on startup
