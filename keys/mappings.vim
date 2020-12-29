@@ -124,5 +124,5 @@ function! s:getVisualSelection()
     return join(lines, "\n")
 endfunction
 
-vnoremap <silent><leader>/ <Esc>:FZF -q <C-R>=<SID>getVisualSelection()<CR><CR>
+vnoremap <silent><leader>/ <Esc>:call fzf#vim#ag('.', {'options':'--query '.<SID>getVisualSelection()})<CR>
 vnoremap <silent><leader>f <Esc>:call fzf#vim#files('.', {'options':'--query '.<SID>getVisualSelection()})<CR>
