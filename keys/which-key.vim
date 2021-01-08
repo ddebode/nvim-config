@@ -340,7 +340,7 @@ let g:which_key_map.t = {
       \ 'r' : [':FloatermNew ranger'                            , 'ranger'],
       \ 't' : [':FloatermToggle'                                , 'toggle'],
       \ 'v' : [':FloatermNew vifm'                              , 'vifm'],
-      \ 'y' : [':FloatermNew ytop'                              , 'ytop'],
+      \ 'y' : [':FloatermNew'                                   , 'new terminal'],
       \ 's' : [':FloatermNew ncdu'                              , 'ncdu'],
       \ }
 
