@@ -14,8 +14,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'tpope/vim-repeat'
     " Text Navigation
     Plug 'unblevable/quick-scope'
-    " Useful for React Commenting 
-
     " Surround
     Plug 'tpope/vim-surround'
     " Have the file system follow you around
@@ -106,10 +104,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'machakann/vim-highlightedyank'
     " Nerdtree 
     Plug 'scrooloose/nerdtree'
-
-
     " See registers when pressing " or @
     Plug 'junegunn/vim-peekaboo'
+    " To cycle through yanks
+    Plug 'svermeulen/vim-yoink'
+
 call plug#end()
 
 " Automatically install missing plugins on startup

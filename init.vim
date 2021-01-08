@@ -45,6 +45,7 @@ source $HOME/.config/nvim/plug-config/coc/coc-extensions.vim
 source $HOME/.config/nvim/plug-config/coc/coc.vim
 source $HOME/.config/nvim/plug-config/quickscope.vim
 source $HOME/.config/nvim/plug-config/nerdtree.vim
+source $HOME/.config/nvim/plug-config/vim-yoink.vim
 
 " java-test
 source $HOME/.config/nvim/plug-config/java-test.vim
