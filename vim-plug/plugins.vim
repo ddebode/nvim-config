@@ -111,6 +111,24 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
 call plug#end()
 
+" Open vim-plug github page with gx
+function! s:plug_gx()
+  if getline('.') =~ 'Plug\s'
+      let cfile = expand('<cfile>')
+      if cfile !~ 'github\.com' && !filereadable(cfile)
+          call netrw#BrowseX(expand((exists("g:netrw_gx")? g:netrw_gx :
+                      \ 'https://github.com/'.cfile)), netrw#CheckIfRemote())
+         return
+      endif
+  endif 
+
+  call netrw#BrowseX(expand((exists("g:netrw_gx")? g:netrw_gx :
+              \ '<cfile>')), netrw#CheckIfRemote())
+endfunction
+
+nnoremap <buffer> <silent> gx :call <SID>plug_gx()<cr>
+
+
 " Automatically install missing plugins on startup
 autocmd VimEnter *
   \  if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
