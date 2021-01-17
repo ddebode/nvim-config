@@ -1,6 +1,6 @@
 # Neovim config
 
-Inspired on https://github.com/ChristianChiarulli/nvim
+Clone off https://github.com/ChristianChiarulli/nvim
 
 
 ## Install Neovim
