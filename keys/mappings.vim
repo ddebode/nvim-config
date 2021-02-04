@@ -106,6 +106,9 @@ nnoremap <leader>q :q<cr>
 nnoremap <leader>n :nohl<cr>
 nnoremap <leader>o o<Esc>
 nnoremap <leader>a <esc>ggVG<CR>
+nmap <leader>' vi"
+nmap v" vi"
+nmap y" yi"
 
 " FZF search selected word
 " Props for xolox
