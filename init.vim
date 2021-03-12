@@ -49,6 +49,8 @@ source $HOME/.config/nvim/plug-config/vim-yoink.vim
 
 " java-test
 source $HOME/.config/nvim/plug-config/java-test.vim
+" maven clean
+source $HOME/.config/nvim/plug-config/maven-cleanup.vim
 
 " Add paths to node and python here
 if !empty(glob("~/.config/nvim/paths.vim"))
