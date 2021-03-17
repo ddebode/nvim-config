@@ -108,6 +108,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'junegunn/vim-peekaboo'
     " To cycle through yanks
     Plug 'svermeulen/vim-yoink'
+    " BD to delete buffer
+    Plug 'qpkorr/vim-bufkill'
 
 call plug#end()
 
