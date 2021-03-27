@@ -1,7 +1,6 @@
 let g:coc_global_extensions = [
   \ 'coc-angular',
   \ 'coc-actions',
-  \ 'coc-bookmark',
   \ 'coc-css',
   \ 'coc-cssmodules',
   \ 'coc-emmet',

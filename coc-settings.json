@@ -28,8 +28,8 @@
  // "java.implementationsCodeLens.enabled": true,
  // "java.completion.enabled": true,
  // "diagnostic.displayByAle": true,
-  "java.home": "/Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home",
-  "groovy.java.home": "/Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home",
+  "java.home": "/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home",
+  "groovy.java.home": "/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home",
   "java.configuration.runtimes": [
   	{
   		"name": "JavaSE-1.8",
@@ -37,7 +37,7 @@
   	},
   	{
   		"name": "JavaSE-11",
-  		"path": "/Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home"
+  		"path": "/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home"
   	}
   ],
 
