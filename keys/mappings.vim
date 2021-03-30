@@ -114,7 +114,7 @@ nmap v" vi"
 nmap y" yi"
 
 " buffkill plugin
-nnoremap <C-w> :BD<CR>
+nnoremap <leader>w :BD<CR>
 
 " FZF search selected word
 " Props for xolox
