@@ -23,5 +23,5 @@ function AddMavenVersion()
    exe "norm! \"kP"
 endfunction
     
-nnoremap <leader>mrv :call ReplaceMavenVersion()<CR>
-nnoremap <leader>mav :call AddMavenVersion()<CR>
+nnoremap <leader>mr :call ReplaceMavenVersion()<CR>
+nnoremap <leader>ma :call AddMavenVersion()<CR>
