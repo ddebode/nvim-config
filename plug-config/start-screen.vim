@@ -35,6 +35,7 @@ let g:startify_bookmarks = [
             \ { 'b': '~/.zshrc' },
             \ { 'c': '~/.config/vifm/vifmrc' },
             \ { 'd': '~/Development/devenv' },
+            \ { 'p': '~/.config/nvim/vim-plug/plugins.vim' },
             \ ]
 
 let g:startify_enable_special = 0

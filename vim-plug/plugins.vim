@@ -110,6 +110,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'svermeulen/vim-yoink'
     " BD to delete buffer
     Plug 'qpkorr/vim-bufkill'
+    " Easymotion like plugin
+    Plug 'phaazon/hop.nvim'
 
 call plug#end()
 
