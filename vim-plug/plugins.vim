@@ -45,6 +45,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Git
     Plug 'airblade/vim-gitgutter'
     Plug 'tpope/vim-fugitive'
+    Plug 'tpope/vim-unimpaired'
     " Plug 'tpope/vim-rhubarb'
     " Plug 'junegunn/gv.vim'
     " Plug 'rhysd/git-messenger.vim'
