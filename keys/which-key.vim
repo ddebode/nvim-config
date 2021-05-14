@@ -243,6 +243,7 @@ let g:which_key_map.S = {
 " g is for git
 let g:which_key_map.g = {
       \ 'name' : '+git' ,
+      \ '0' : [':0Glog'                            , 'git history current file'],
       \ 'a' : [':Git add .'                        , 'add all'],
       \ 'A' : [':CocCommand fzf-preview.GitStatus' , 'actions'],
       \ 'b' : [':Git blame'                        , 'blame'],
