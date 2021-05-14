@@ -113,6 +113,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'qpkorr/vim-bufkill'
     " Easymotion like plugin
     Plug 'phaazon/hop.nvim'
+    " Function as text object (af if)
+    Plug 'kana/vim-textobj-user'
+    Plug 'kana/vim-textobj-function'
 
 call plug#end()
 
