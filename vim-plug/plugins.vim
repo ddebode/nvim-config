@@ -116,6 +116,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Function as text object (af if)
     Plug 'kana/vim-textobj-user'
     Plug 'kana/vim-textobj-function'
+    " Bufonly"
+    Plug 'vim-scripts/BufOnly.vim'
 
 call plug#end()
 
