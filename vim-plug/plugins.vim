@@ -119,6 +119,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'kana/vim-textobj-function'
     " Bufonly"
     Plug 'vim-scripts/BufOnly.vim'
+    " Search and replace plugin
+    Plug 'nvim-lua/plenary.nvim'
+    Plug 'nvim-lua/popup.nvim'
+    Plug 'windwp/nvim-spectre'
 
 call plug#end()
 

@@ -129,6 +129,15 @@ let g:which_key_map.x = {
       \ 'p' : [':Farr --source=rgnvim'     , 'project'],
       \ }
 
+nnoremap <leader>xh :lua require('spectre').open()<CR>
+
+"search current word
+nnoremap <leader>xw viw:lua require('spectre').open_visual()<CR>
+vnoremap <leader>xh :lua require('spectre').open_visual()<CR>
+"  search in current file
+nnoremap <leader>xp viw:lua require('spectre').open_file_search()<cr>
+
+
 " k is for task
 let g:which_key_map.k = {
       \ 'name' : '+task' ,
