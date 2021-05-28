@@ -119,7 +119,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'kana/vim-textobj-function'
     " Bufonly"
     Plug 'vim-scripts/BufOnly.vim'
-    " Search and replace plugin
+    " Search and replace plugin - Key mappings are in which-key file (leader-x)
+    " To search folder **/directory/* - to close search screen -> leader-w
     Plug 'nvim-lua/plenary.nvim'
     Plug 'nvim-lua/popup.nvim'
     Plug 'windwp/nvim-spectre'
