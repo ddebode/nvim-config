@@ -106,6 +106,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Nerdtree 
     Plug 'scrooloose/nerdtree'
     Plug 'PhilRunninger/nerdtree-visual-selection'
+    Plug 'Xuyuanp/nerdtree-git-plugin'
     " See registers when pressing " or @
     Plug 'junegunn/vim-peekaboo'
     " To cycle through yanks
