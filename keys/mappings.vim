@@ -103,6 +103,9 @@ nnoremap x "_x
 " In visual mode paste action will not overwrite the default register
 vnoremap p pgvy
 
+" When yanking cursor stays in same position
+vmap y ygv<Esc>
+
 " Custom mappings
 nnoremap <leader>r :so ~/.config/nvim/init.vim<CR> 
 nnoremap <leader>q :q<cr>
