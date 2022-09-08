@@ -28,19 +28,8 @@
  // "java.implementationsCodeLens.enabled": true,
  // "java.completion.enabled": true,
  // "diagnostic.displayByAle": true,
-  "java.home": "/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home",
-  "groovy.java.home": "/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home",
-  "java.configuration.runtimes": [
-  	{
-  		"name": "JavaSE-1.8",
-  		"path": "/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home"
-  	},
-  	{
-  		"name": "JavaSE-11",
-  		"path": "/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home"
-  	}
-  ],
-
+  "java.home": "/usr/lib/jvm/java-11-openjdk-amd64",
+  "groovy.java.home": "/usr/lib/jvm/java-11-openjdk-amd64",
   // list
   "list.indicator": ">",
   "list.selectedSignText": " ",
