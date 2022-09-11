@@ -60,8 +60,8 @@ let g:which_key_map['/'] = ['Ag'                     , 'fzf-search']
 
 " Group mappings
 
-" a is for actions
-let g:which_key_map.a = {
+" A is for actions
+let g:which_key_map.A = {
       \ 'name' : '+actions' ,
       \ 'c' : [':ColorizerToggle'        , 'colorizer'],
       \ 'e' : [':CocCommand explorer'    , 'explorer'],
@@ -252,16 +252,16 @@ let g:which_key_map.S = {
 " g is for git
 let g:which_key_map.g = {
       \ 'name' : '+git' ,
-      \ '0' : [':0Glog'                            , 'git history current file'],
-      \ 'a' : [':Git add .'                        , 'add all'],
-      \ 'A' : [':CocCommand fzf-preview.GitStatus' , 'actions'],
+      \ '0' : [':0Gclog'                            , 'git history current file'],
+      \ 'A' : [':Git add .'                        , 'add all'],
+      \ 'a' : [':CocCommand fzf-preview.GitStatus' , 'actions'],
       \ 'b' : [':Git blame'                        , 'blame'],
       \ 'B' : [':GBrowse'                          , 'browse'],
       \ 'c' : [':Git commit'                       , 'commit'],
       \ 'd' : [':Git diff'                         , 'diff'],
       \ 'D' : [':Gdiffsplit'                       , 'diff split'],
       \ 'g' : [':GF?'                              , 'git changed files'],
-      \ 'G' : [':Gstatus'                          , 'status'],
+      \ 'G' : [':Git'                              , 'status'],
       \ 'h' : [':GitGutterLineHighlightsToggle'    , 'highlight hunks'],
       \ 'H' : ['<Plug>(GitGutterPreviewHunk)'      , 'preview hunk'],
       \ 'i' : [':Gist -b'                          , 'post gist'],

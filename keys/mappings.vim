@@ -40,7 +40,9 @@ xnoremap J :move '>+1<CR>gv-gv
 " Use control-c instead of escape
 nnoremap <silent> <C-c> <Esc>
 " <TAB>: completion.
-inoremap <silent> <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
+" inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm() : "\<C-y>"
+
+
 
 " Better window navigation
 nnoremap <C-h> <C-w>h
