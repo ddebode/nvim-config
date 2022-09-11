@@ -77,3 +77,7 @@ noremap Q @q
 
 " Allow backspace to delete more than what is inserted
 set backspace=indent,eol,start
+
+" highlight trailing white space
+hi EoLSpace ctermbg=238 guibg=#333333
+match EoLSpace /\s\+$/
