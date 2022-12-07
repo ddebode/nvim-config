@@ -96,7 +96,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Neovim in Browser
     Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
 
-    " Old config
     "Auto save 
     Plug 'vim-scripts/vim-auto-save'
     " Test with maven
