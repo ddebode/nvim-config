@@ -47,7 +47,8 @@ source $HOME/.config/nvim/plug-config/quickscope.vim
 source $HOME/.config/nvim/plug-config/nerdtree.vim
 source $HOME/.config/nvim/plug-config/vim-yoink.vim
 source $HOME/.config/nvim/plug-config/hop.vim
-source $HOME/.config/nvim/plug-config/hop.lua
+luafile $HOME/.config/nvim/plug-config/hop.lua
+luafile $HOME/.config/nvim/plug-config/hydra.lua
 
 " java-test
 source $HOME/.config/nvim/plug-config/java-test.vim

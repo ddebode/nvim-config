@@ -121,7 +121,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " To search folder **/directory/* - to close search screen -> leader-w
     Plug 'nvim-lua/plenary.nvim'
     Plug 'nvim-lua/popup.nvim'
+    " debuging
     Plug 'windwp/nvim-spectre'
+    " show hints
+    Plug 'anuvyklack/hydra.nvim'
 
 call plug#end()
 
