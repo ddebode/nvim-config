@@ -46,9 +46,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'airblade/vim-gitgutter'
     Plug 'tpope/vim-fugitive'
     Plug 'tpope/vim-unimpaired'
-    " Plug 'tpope/vim-rhubarb'
-    " Plug 'junegunn/gv.vim'
-    " Plug 'rhysd/git-messenger.vim'
     " Terminal
     Plug 'voldikss/vim-floaterm'
     " Start Screen
@@ -93,8 +90,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Debugging
     Plug 'puremourning/vimspector'
     Plug 'szw/vim-maximizer'
-    " Neovim in Browser
-    Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
 
     "Auto save 
     Plug 'vim-scripts/vim-auto-save'
@@ -121,7 +116,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " To search folder **/directory/* - to close search screen -> leader-w
     Plug 'nvim-lua/plenary.nvim'
     Plug 'nvim-lua/popup.nvim'
-    " debuging
     Plug 'windwp/nvim-spectre'
     " show hints
     Plug 'anuvyklack/hydra.nvim'
