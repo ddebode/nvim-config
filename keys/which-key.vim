@@ -45,7 +45,7 @@ let g:which_key_map['e'] = [ ':CocCommand explorer --toggle --sources=file+'   ,
 let g:which_key_map['n'] = [ ':let @/ = ""'                                    , 'no highlight' ]
 " let g:which_key_map['o'] = [ ':RnvimrToggle'                                   , 'open' ]
 " let g:which_key_map['q'] = [ ':q<cr>'                                          , 'close window' ]
-let g:which_key_map['T'] = [ ':TSHighlightCapturesUnderCursor'                 , 'treesitter highlight' ]
+" let g:which_key_map['T'] = [ ':TSHighlightCapturesUnderCursor'                 , 'treesitter highlight' ]
 let g:which_key_map['u'] = [ ':UndotreeToggle'                                 , 'undo tree']
 let g:which_key_map['L'] = [ '<C-W>v'                                          , 'split right']
 let g:which_key_map['J'] = [ '<C-W>s'                                          , 'split below']
@@ -247,6 +247,22 @@ let g:which_key_map.S = {
       \ 's' : [':Startify'        , 'Start Page']     ,
       \ 'S' : [':SSave'           , 'Save Session']   ,
       \ }
+
+" let g:which_key_map.T = {
+"       \ 'name' : '+Telescope' ,
+"       \ 'f' : [':lua require("telescope.builtin").find_files()'          , 'Find files']  ,
+"       \ 'd' : [':SDelete'         , 'Delete Session'] ,
+"       \ 'l' : [':SLoad'           , 'Load Session']     ,
+"       \ 's' : [':Startify'        , 'Start Page']     ,
+"       \ 'S' : [':SSave'           , 'Save Session']   ,
+"       \ }
+
+nnoremap <leader>Tf :lua require("telescope.builtin").find_files()<CR>
+nnoremap <leader>Tg <cmd>lua require('telescope.builtin').live_grep()<cr>
+nnoremap <leader>Tb <cmd>lua require('telescope.builtin').buffers()<cr>
+nnoremap <leader>Th <cmd>lua require('telescope.builtin').help_tags()<cr>
+nnoremap <leader>Tt <cmd>lua require('telescope.builtin').git_bcommits()<cr>
+
 
 " g is for git
 let g:which_key_map.g = {

@@ -119,6 +119,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'windwp/nvim-spectre'
     " show hints
     Plug 'anuvyklack/hydra.nvim'
+    " telescope needs plenary.vim"
+    Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.0' }
 
 call plug#end()
 
