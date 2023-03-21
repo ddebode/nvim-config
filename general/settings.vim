@@ -81,3 +81,9 @@ set backspace=indent,eol,start
 " highlight trailing white space
 hi EoLSpace ctermbg=238 guibg=#333333
 match EoLSpace /\s\+$/
+
+" fold imports in java
+set foldmethod=syntax
+set foldenable
+set foldclose=all
+

@@ -11,3 +11,8 @@ wiki/
 pack/
 utils/java/*
 
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr

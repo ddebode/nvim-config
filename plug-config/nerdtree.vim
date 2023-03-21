@@ -6,7 +6,7 @@ let NERDTreeShowHidden=1
 let g:NERDTreeWinSize=60
 
 " circumvent that nerdtree buffer is overwritten
-autocmd BufEnter * if bufname('#') =~# "^NERD_tree_" | b# | endif
+" autocmd BufEnter * if bufname('#') =~# "^NERD_tree_" | b# | endif
 " autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
 " Copy file path

@@ -6,7 +6,7 @@
 
 
 " General Settings
-source $HOME/.config/nvim/plug-config/polyglot.vim
+" source $HOME/.config/nvim/plug-config/polyglot.vim
 source $HOME/.config/nvim/vim-plug/plugins.vim
 source $HOME/.config/nvim/general/settings.vim
 source $HOME/.config/nvim/general/functions.vim
@@ -53,6 +53,8 @@ luafile $HOME/.config/nvim/plug-config/hydra.lua
 source $HOME/.config/nvim/plug-config/java-test.vim
 " maven clean
 source $HOME/.config/nvim/plug-config/maven-cleanup.vim
+
+luafile $HOME/.config/nvim/plug-config/hydra.lua
 
 " Add paths to node and python here
 if !empty(glob("~/.config/nvim/paths.vim"))

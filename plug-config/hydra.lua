@@ -94,6 +94,7 @@ Hydra({
    }
 })
 
+local Hydra = require('hydra')
 local cmd = require('hydra.keymap-util').cmd
 
 local hint = [[
@@ -121,7 +122,7 @@ Hydra({
       },
    },
    mode = 'n',
-   body = 'Ht',
+   body = 'HT',
    heads = {
       { 'f', cmd 'Telescope find_files' },
       { 'g', cmd 'Telescope live_grep' },
@@ -141,3 +142,32 @@ Hydra({
       { '<Esc>', nil, { exit = true, nowait = true } },
    }
 })
+
+
+local Hydra = require('hydra')
+local cmd = require('hydra.keymap-util').cmd
+
+local hint = [[
+   _f_: test file       _n_: test nearest
+]]
+
+Hydra({
+   name = 'Test',
+   hint = hint,
+   config = {
+      color = 'teal',
+      invoke_on_body = true,
+      hint = {
+         position = 'middle',
+         border = 'rounded',
+      },
+   },
+   mode = 'n',
+   body = 'ht',
+   heads = {
+      { 'f', cmd 'TestFile' },
+      { 'n', cmd 'TestFile' },
+      { '<Esc>', nil, { exit = true, nowait = true } },
+   }
+})
+

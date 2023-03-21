@@ -8,7 +8,6 @@ let g:coc_global_extensions = [
   \ 'coc-explorer',
   \ 'coc-floaterm',
   \ 'coc-fzf-preview',
-  \ 'coc-groovy',
   \ 'coc-html',
   \ 'coc-java',
   \ 'coc-java-debug',
