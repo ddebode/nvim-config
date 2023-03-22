@@ -118,8 +118,8 @@ let g:which_key_map.D = {
       \ 'i' : ['<Plug>VimspectorStepInto'                      , 'step into'],
       \ 'p' : ['<Plug>VimspectorPause'                         , 'pause'],
       \ 'R' : ['<Plug>VimspectorRestart'                       , 'restart'],
-      \ 'r' : ['<Plug>VimspectorReset'                         , 'reset'],
-      \ 's' : ['CocCommand java.debug.vimspector.start<CR>'    , 'start'],
+      \ 'r' : [':VimspectorReset'                         , 'reset'],
+      \ 's' : [':CocCommand java.debug.vimspector.start'    , 'start'],
       \ 'S' : ['<Plug>VimspectorStop'                          , 'stop'],
       \ }
 

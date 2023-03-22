@@ -8,7 +8,6 @@
 " General Settings
 " source $HOME/.config/nvim/plug-config/polyglot.vim
 source $HOME/.config/nvim/vim-plug/plugins.vim
-source $HOME/.config/nvim/general/settings.vim
 source $HOME/.config/nvim/general/functions.vim
 source $HOME/.config/nvim/keys/mappings.vim
 
@@ -64,3 +63,5 @@ endif
 " Better nav for omnicomplete TODO figure out why this is being overridden
 inoremap <expr> <c-j> ("\<C-n>")
 inoremap <expr> <c-k> ("\<C-p>")
+
+source $HOME/.config/nvim/general/settings.vim
