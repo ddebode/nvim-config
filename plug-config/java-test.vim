@@ -21,6 +21,3 @@ function! FindJavaTestFileFzF()
   endif
   redraw!
 endfunction
-
-" Test current file
-nmap <leader>cm :FloatermNew --autoclose=0 mvn test -Dtest=%:t:r<CR>
