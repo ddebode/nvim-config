@@ -105,7 +105,7 @@ let g:which_key_map.B = {
       \ }
 
 " d is for debug
-let g:which_key_map.d = {
+let g:which_key_map.D = {
       \ 'name' : '+debug' ,
       \ 'b' : ['<Plug>VimspectorToggleBreakpoint'              , 'breakpoint'],
       \ 'B' : ['<Plug>VimspectorToggleConditionalBreakpoint'   , 'conditional breakpoint'],
@@ -117,8 +117,10 @@ let g:which_key_map.d = {
       \ 'O' : ['<Plug>VimspectorStepOut'                       , 'step out'],
       \ 'i' : ['<Plug>VimspectorStepInto'                      , 'step into'],
       \ 'p' : ['<Plug>VimspectorPause'                         , 'pause'],
-      \ 'r' : ['<Plug>VimspectorRestart'                       , 'restart'],
-      \ 's' : ['<Plug>VimspectorStop'                          , 'stop'],
+      \ 'R' : ['<Plug>VimspectorRestart'                       , 'restart'],
+      \ 'r' : [':VimspectorReset'                         , 'reset'],
+      \ 's' : [':CocCommand java.debug.vimspector.start'    , 'start'],
+      \ 'S' : ['<Plug>VimspectorStop'                          , 'stop'],
       \ }
 
 " f is for find and replace
@@ -338,7 +340,7 @@ let g:which_key_map.l = {
       \ 'P' : ['<Plug>(coc-diagnostic-prev-error)'   , 'prev error'],
       \ 'q' : ['<Plug>(coc-fix-current)'             , 'quickfix'],
       \ 'r' : ['<Plug>(coc-references)'              , 'references'],
-      \ 'R' : [':CocCommand document.renameCurrentWord' , 'rename multi cursor'],
+      \ 'R' : ['<Plug>(coc-rename)'                  , 'rename'],
       \ 's' : [':CocList -I symbols'                 , 'references'],
       \ 'S' : [':CocList snippets'                   , 'snippets'],
       \ 't' : ['<Plug>(coc-type-definition)'         , 'type definition'],

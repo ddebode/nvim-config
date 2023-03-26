@@ -116,6 +116,11 @@ nnoremap <leader>a <esc>ggVG<CR>
 nmap <leader>' vi"
 nmap v" vi"
 nmap y" yi"
+nnoremap ,q <c-v>
+
+noremap <leader><leader>M :lua require'telegraph'.telegraph({how='tmux_popup', cmd='man '})<Left><Left><Left>
+" decrypt word under cursor
+noremap <leader><leader>d :! ~/development/deltafiber/own-scripts/decrypt.sh <cword>
 
 " buffkill plugin
 nnoremap <leader>w :Bdelete<CR>
@@ -140,3 +145,5 @@ endfunction
 vnoremap <silent><leader>/ <Esc>:call fzf#vim#ag('.', {'options':'--query '.<SID>getVisualSelection()})<CR>
 vnoremap <silent><leader>f <Esc>:call fzf#vim#files('.', {'options':'--query '.<SID>getVisualSelection()})<CR>
 
+map <leader>ci :syn region foldImports start="import" end=/import.*\n^$/ fold keepend<CR>
+nmap <leader><leader>f :BTags<CR>

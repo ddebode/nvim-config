@@ -6,9 +6,8 @@
 
 
 " General Settings
-source $HOME/.config/nvim/plug-config/polyglot.vim
+" source $HOME/.config/nvim/plug-config/polyglot.vim
 source $HOME/.config/nvim/vim-plug/plugins.vim
-source $HOME/.config/nvim/general/settings.vim
 source $HOME/.config/nvim/general/functions.vim
 source $HOME/.config/nvim/keys/mappings.vim
 
@@ -54,6 +53,8 @@ source $HOME/.config/nvim/plug-config/java-test.vim
 " maven clean
 source $HOME/.config/nvim/plug-config/maven-cleanup.vim
 
+luafile $HOME/.config/nvim/plug-config/hydra.lua
+
 " Add paths to node and python here
 if !empty(glob("~/.config/nvim/paths.vim"))
   source $HOME/.config/nvim/paths.vim
@@ -62,3 +63,5 @@ endif
 " Better nav for omnicomplete TODO figure out why this is being overridden
 inoremap <expr> <c-j> ("\<C-n>")
 inoremap <expr> <c-k> ("\<C-p>")
+
+source $HOME/.config/nvim/general/settings.vim

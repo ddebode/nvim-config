@@ -10,4 +10,10 @@ session
 wiki/
 pack/
 utils/java/*
+autoload
 
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
