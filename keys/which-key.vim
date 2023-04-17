@@ -368,6 +368,15 @@ let g:which_key_map.t = {
       \ 's' : [':FloatermNew ncdu'                              , 'ncdu'],
       \ }
 
+
+" c programming
+let g:which_key_map.c = {
+      \ 'name' : '+prog' ,
+      \ 'x' : [':FloatermNew --autoclose=0 mvn test -Dtest=%:t:r'         , 'mvn test file'],
+      \ 'n' : [':FloatermNew --autoclose=0 mvn test -Dtest=%:t:r#<cword>' , 'mvn test file+cword'],
+      \ 'd' : [':FloatermNew --autoclose=0 mvn test -Dtest=%:t:r#<cword> -Dmaven.surefire.debug'  , 'mvn test debug file+cword'],
+      \ }
+
 " w is for wiki
 " let g:which_key_map.w = {
 "       \ 'name' : '+wiki' ,

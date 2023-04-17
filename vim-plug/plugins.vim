@@ -30,7 +30,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'ryanoasis/vim-devicons'
     " Auto pairs for '(' '[' '{'
     " Plug 'jiangmiao/auto-pairs'
-    " Closetags
+    " Closetags -> use >
     Plug 'alvan/vim-closetag'
     " Themes
     Plug 'christianchiarulli/nvcode-color-schemes.vim'

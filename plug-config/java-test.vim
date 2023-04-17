@@ -21,5 +21,3 @@ function! FindJavaTestFileFzF()
   endif
   redraw!
 endfunction
-
-
