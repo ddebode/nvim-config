@@ -121,6 +121,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'anuvyklack/hydra.nvim'
     " telescope needs plenary.vim"
     Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.0' }
+    " draw diagrams press hd for hydra
+    Plug 'jbyuki/venn.nvim'
 
 call plug#end()
 
