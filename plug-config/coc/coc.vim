@@ -86,8 +86,11 @@ else
   set signcolumn=yes
 endif
 
-" You have to remap <cr> to make it confirm completion. 
-inoremap <expr> <cr> coc#pum#visible() ? coc#pum#confirm() : "\<CR>"
+" You have to remap <cr> to make it confirm completion.
+" inoremap <expr> <cr> coc#pum#visible() ? coc#pum#confirm() : "\<CR>"
+inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm()
+                              \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
+
 
 " Use <c-space> to trigger completion.
 if has('nvim')
