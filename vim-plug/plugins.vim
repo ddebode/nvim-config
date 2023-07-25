@@ -33,7 +33,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Closetags -> use >
     Plug 'alvan/vim-closetag'
     " Themes
-    Plug 'christianchiarulli/nvcode-color-schemes.vim'
+    " Plug 'christianchiarulli/nvcode-color-schemes.vim'
+    Plug 'folke/tokyonight.nvim'
     " Intellisense
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " Status Line
@@ -123,6 +124,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.0' }
     " draw diagrams press hd for hydra
     Plug 'jbyuki/venn.nvim'
+    " Multi cursor crtl+n
+    Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 
 call plug#end()
 

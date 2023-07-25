@@ -14,14 +14,16 @@ source $HOME/.config/nvim/keys/mappings.vim
 
 " Themes
 source $HOME/.config/nvim/themes/syntax.vim
-source $HOME/.config/nvim/themes/nvcode.vim
+" source $HOME/.config/nvim/themes/nvcode.vim
+source $HOME/.config/nvim/themes/tokyonight.vim
+source $HOME/.config/nvim/lua/_tokyonight.lua
 
 " Plugin Configuration
 source $HOME/.config/nvim/keys/which-key.vim
 source $HOME/.config/nvim/plug-config/fzf.vim
 source $HOME/.config/nvim/plug-config/codi.vim
 source $HOME/.config/nvim/plug-config/vim-wiki.vim
-luafile $HOME/.config/nvim/lua/nvcodeline.lua
+" luafile $HOME/.config/nvim/lua/nvcodeline.lua
 luafile $HOME/.config/nvim/lua/treesitter.lua
 source $HOME/.config/nvim/plug-config/goyo.vim
 source $HOME/.config/nvim/plug-config/vim-rooter.vim
@@ -35,7 +37,7 @@ source $HOME/.config/nvim/plug-config/bracey.vim
 source $HOME/.config/nvim/plug-config/asynctask.vim
 source $HOME/.config/nvim/plug-config/window-swap.vim
 source $HOME/.config/nvim/plug-config/markdown-preview.vim
-luafile $HOME/.config/nvim/lua/plug-colorizer.lua
+" luafile $HOME/.config/nvim/lua/plug-colorizer.lua
 source $HOME/.config/nvim/plug-config/vimspector.vim
 source $HOME/.config/nvim/plug-config/highlightyank.vim
 source $HOME/.config/nvim/plug-config/vim-test.vim
@@ -47,6 +49,7 @@ source $HOME/.config/nvim/plug-config/vim-yoink.vim
 source $HOME/.config/nvim/plug-config/hop.vim
 luafile $HOME/.config/nvim/plug-config/hop.lua
 luafile $HOME/.config/nvim/plug-config/hydra.lua
+source $HOME/.config/nvim/plug-config/multi-cursor.vim
 
 " java-test
 source $HOME/.config/nvim/plug-config/java-test.vim
