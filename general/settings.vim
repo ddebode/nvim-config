@@ -83,7 +83,7 @@ hi EoLSpace ctermbg=238 guibg=#333333
 match EoLSpace /\s\+$/
 
 " fold imports in java
-" set foldmethod=syntax
-" set foldenable
-" set foldclose=all
+set foldmethod=syntax
+set foldenable
+set foldclose=all
 
