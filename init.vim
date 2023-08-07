@@ -63,6 +63,8 @@ if !empty(glob("~/.config/nvim/paths.vim"))
   source $HOME/.config/nvim/paths.vim
 endif
 
+let g:python3_host_prog = '/home/ddebode/.virtualenvs/neovim-python-env-rnzt/bin/python'
+
 " Better nav for omnicomplete TODO figure out why this is being overridden
 inoremap <expr> <c-j> ("\<C-n>")
 inoremap <expr> <c-k> ("\<C-p>")
