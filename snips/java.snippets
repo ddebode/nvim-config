@@ -43,3 +43,18 @@ endglobal
 snippet pkg "Declare java package" b
 package `!p snip.rv = get_file_package()`;
 endsnippet
+
+snippet junit5testfile "Create junit 5 testfile" b
+package `!p snip.rv = get_file_package()`;
+
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+class `!p snip.rv = snip.basename` {
+
+    @Test
+    void test() {
+    }
+}
+endsnippet

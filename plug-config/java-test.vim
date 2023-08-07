@@ -21,3 +21,18 @@ function! FindJavaTestFileFzF()
   endif
   redraw!
 endfunction
+
+function! CreateJavaTestFile()
+  let currentPath = expand('%:p:h')
+  let currentFileName = expand('%:t:r')
+  let testdir = substitute(currentPath, "main", "test", "")
+  let testFilename = testdir . '/' . currentFileName . 'Test.java'
+  let choice = inputlist(['Select option', '1. create ' . testFilename])
+  if choice == 1
+    execute "!mkdir " . testdir
+    execute "e " . testFilename
+  else 
+    echo "No testfile selected"
+  endif
+endfunction
+
