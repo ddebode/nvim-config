@@ -126,6 +126,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'jbyuki/venn.nvim'
     " Multi cursor crtl+n
     Plug 'mg979/vim-visual-multi', {'branch': 'master'}
+    " Database plugins
+    Plug 'tpope/vim-dadbod'
+    Plug 'kristijanhusak/vim-dadbod-ui'
 
 call plug#end()
 

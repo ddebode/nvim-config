@@ -50,6 +50,7 @@ source $HOME/.config/nvim/plug-config/hop.vim
 luafile $HOME/.config/nvim/plug-config/hop.lua
 luafile $HOME/.config/nvim/plug-config/hydra.lua
 source $HOME/.config/nvim/plug-config/multi-cursor.vim
+source $HOME/.config/nvim/plug-config/vim-dadbod-ui.vim
 
 " java-test
 source $HOME/.config/nvim/plug-config/java-test.vim
