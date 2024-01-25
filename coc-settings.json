@@ -28,7 +28,10 @@
  // "java.implementationsCodeLens.enabled": true,
  // "java.completion.enabled": true,
  // "diagnostic.displayByAle": true,
+  "java.jdt.ls.home": "~/Downloads/jdtls",
   "java.jdt.ls.java.home": "~/.sdkman/candidates/java/17-open",
+  "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms400m -Xlog:disable",
+  "java.format.settings.url": "~/eclipse-java-google-style.xml",
 
   // list
   "list.indicator": ">",
