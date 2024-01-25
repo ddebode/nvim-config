@@ -45,7 +45,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'junegunn/fzf.vim'
     " Git
     Plug 'airblade/vim-gitgutter'
-    Plug 'tpope/vim-fugitive'
+    Plug 'tpope/vim-fugitive'    " 0Gclog to see buffer history
     Plug 'tpope/vim-unimpaired'
     " Terminal
     Plug 'voldikss/vim-floaterm'

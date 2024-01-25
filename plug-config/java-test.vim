@@ -36,3 +36,13 @@ function! CreateJavaTestFile()
   endif
 endfunction
 
+
+function! FindMethodName()
+  normal! [m
+  let result = search('(', 'b')
+  if result == 0
+    echo "Pattern not found."
+  endif
+  normal! hb
+endfunction
+

@@ -373,8 +373,9 @@ let g:which_key_map.t = {
 let g:which_key_map.c = {
       \ 'name' : '+prog' ,
       \ 'x' : [':FloatermNew --autoclose=0 mvn test -Dtest=%:t:r'         , 'mvn test file'],
-      \ 'n' : [':FloatermNew --autoclose=0 mvn test -Dtest=%:t:r#<cword>' , 'mvn test file+cword'],
-      \ 'd' : [':FloatermNew --autoclose=0 mvn test -Dtest=%:t:r#<cword> -Dmaven.surefire.debug'  , 'mvn test debug file+cword'],
+      \ 'n' : [':call FindMethodName() | FloatermNew --autoclose=0 mvn test -Dtest=%:t:r#<cword>' , 'mvn test file+cword'],
+      \ 'd' : [':call FindMethodName() | FloatermNew --autoclose=0 mvn test -Dtest=%:t:r#<cword> -Dmaven.surefire.debug'  , 'mvn test debug file+cword'],
+      \ 's' : [':call FindMethodName()'  , 'goto method name'],
       \ }
 
 " w is for wiki
