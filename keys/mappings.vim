@@ -96,7 +96,7 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
 " Delete to zero register
-nnoremap <leader>d "_d<cr>
+" nnoremap <leader>d "_d<cr>
 nnoremap dd "_dd
 nnoremap c "_c
 nnoremap x "_x
