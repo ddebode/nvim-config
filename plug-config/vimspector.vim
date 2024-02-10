@@ -6,7 +6,9 @@ let g:vimspector_enable_mappings='VISUAL_STUDIO'
 " Start spring in debug mode
 " mvn spring-boot:run -Dspring-boot.run.jvmArguments="-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=5005"
 " Toggle breakpoint: F9
+" https://visualstudio.microsoft.com/keyboard-shortcuts.pdf
 " Run in vim: CocCommand java.debug.vimspector.start
+" go back to normal view VimSpectreReset
 
 
 " for normal mode - the word under the cursor
